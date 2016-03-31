@@ -9,7 +9,7 @@ java.util.LinkedList class.
  * @param <E>
 */
 
-public class CP3LinkedList<E> 
+public class DoublyLinkedList<E>
 {
         private class Node 
         {
@@ -30,7 +30,7 @@ public class CP3LinkedList<E>
 	/** 
     	Constructs an empty linked list.
 	*/
-	public CP3LinkedList()
+	public DoublyLinkedList()
 	{  
 		first = null;
                 last = null;

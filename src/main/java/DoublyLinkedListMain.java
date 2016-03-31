@@ -9,11 +9,11 @@
  *
  * @author ShaneC
  */
-public class CP3Main 
+public class DoublyLinkedListMain
 {
     public static void main(String[] args)
     {
-        CP3LinkedList list = new CP3LinkedList();
+        DoublyLinkedList list = new DoublyLinkedList();
         
         list.addFirst("Mary");
         list.addFirst("Shane");
