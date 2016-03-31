@@ -21,23 +21,23 @@ public class DoublyLinkedList<E>
             {
                 System.out.println(data);
             }
-	}
+	    }
 	
         private Node first;
         private Node last;
         
 		
-	/** 
-    	Constructs an empty linked list.
+	/**
+     Constructs an empty doubly linked list.
 	*/
 	public DoublyLinkedList()
 	{  
 		first = null;
-                last = null;
+        last = null;
 	}
  
 	/**
- 	Adds an element to the front of the linked list.
+ 	Adds an element to the front of the doubly linked list.
  	@param element the element to add
 	 */
 	public void addFirst(E element)
@@ -97,7 +97,7 @@ public class DoublyLinkedList<E>
         }
         
         public void addLast(E element)
-	{  
+	    {
             Node newLink = new Node();
             newLink.data = element;
 		
@@ -117,21 +117,21 @@ public class DoublyLinkedList<E>
             }
         }
 
-	public E getFirst() 
+	    public E getFirst()
         {
             if (first == null)
-		throw new NoSuchElementException();
+		        throw new NoSuchElementException();
 		
             return first.data;
-	}
+	    }
         
         public E getLast() 
         {
             if (last == null)
-		throw new NoSuchElementException();
+		        throw new NoSuchElementException();
 		
             return last.data;
-	}
+	    }
         
         public E removeFirst() 
         {
@@ -158,7 +158,7 @@ public class DoublyLinkedList<E>
              }
             
             return temp;
-	}
+	    }
         
         public E removeLast() 
         {
@@ -185,7 +185,7 @@ public class DoublyLinkedList<E>
             }
             
             return temp;
-	}
+	    }
         
         public E removeKey(E key)
         {
@@ -225,7 +225,7 @@ public class DoublyLinkedList<E>
         public boolean isEmpty() 
         {
             return first == null;
-	}
+	    }
 	
         public void printList() 
         {
@@ -233,12 +233,13 @@ public class DoublyLinkedList<E>
 		
             while (current != null) 
             {
-	        //System.out.println(current.data);
+	            //System.out.println(current.data);
                 current.displayNode();
-	        current = current.next;
-	    }
+	            current = current.next;
+	        }
+
             //System.out.println();
-	}
+	    }
         
         public int size()
         {
