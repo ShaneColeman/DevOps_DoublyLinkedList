@@ -249,7 +249,7 @@ public class DoublyLinkedList<E>
             
             while(current != null)
             {
-                size++;
+                size--;
                 current = current.next;
             }
             
