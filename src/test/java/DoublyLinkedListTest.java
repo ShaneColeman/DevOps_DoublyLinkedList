@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+import doublyLinkedList.DoublyLinkedList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -19,7 +14,7 @@ public class DoublyLinkedListTest
     }
 
     /**
-     * Test of getFirst method, of class DoublyLinkedList.
+     * Test of getFirst method, of class doublyLinkedList.DoublyLinkedList.
      */
     @Test
     public void testGetFirst()
@@ -39,7 +34,7 @@ public class DoublyLinkedListTest
     }
 
     /**
-     * Test of getLast method, of class DoublyLinkedList.
+     * Test of getLast method, of class doublyLinkedList.DoublyLinkedList.
      */
     @Test
     public void testGetLast()
@@ -59,7 +54,7 @@ public class DoublyLinkedListTest
     }
 
     /**
-     * Test of removeFirst method, of class DoublyLinkedList.
+     * Test of removeFirst method, of class doublyLinkedList.DoublyLinkedList.
      */
     @Test
     public void testRemoveFirst()
@@ -79,7 +74,7 @@ public class DoublyLinkedListTest
     }
 
     /**
-     * Test of removeLast method, of class DoublyLinkedList.
+     * Test of removeLast method, of class doublyLinkedList.DoublyLinkedList.
      */
     @Test
     public void testRemoveLast()
@@ -100,7 +95,7 @@ public class DoublyLinkedListTest
     }
 
     /**
-     * Test of removeKey method, of class DoublyLinkedList.
+     * Test of removeKey method, of class doublyLinkedList.DoublyLinkedList.
      */
     @Test
     public void testRemoveKey()
@@ -123,7 +118,7 @@ public class DoublyLinkedListTest
     }
 
     /**
-     * Test of isEmpty method, of class DoublyLinkedList.
+     * Test of isEmpty method, of class doublyLinkedList.DoublyLinkedList.
      */
     @Test
     public void testIsEmpty()
@@ -142,7 +137,7 @@ public class DoublyLinkedListTest
     }
 
     /**
-     * Test of size method, of class DoublyLinkedList.
+     * Test of size method, of class doublyLinkedList.DoublyLinkedList.
      */
     @Test
     public void testSize()
