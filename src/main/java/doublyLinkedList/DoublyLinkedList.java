@@ -10,7 +10,6 @@ contains a subset of the methods of the standard
 java.util.LinkedList class.
  * @param <E>
 */
-
 public class DoublyLinkedList<E>
 {
         private class Node 
