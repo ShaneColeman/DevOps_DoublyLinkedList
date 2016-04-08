@@ -1,6 +1,5 @@
-package doublyLinkedListTest;
+package doublyLinkedList;
 
-import doublyLinkedList.DoublyLinkedList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
