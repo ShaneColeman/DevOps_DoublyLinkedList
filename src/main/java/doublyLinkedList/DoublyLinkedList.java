@@ -242,18 +242,16 @@ public class DoublyLinkedList<E>
             //System.out.println();
 	    }
         
-        public int size()
-        {
+        public int size() {
             int size = 0;
-            
+
             Node current = first;
-            
-            while(current != null)
-            {
+
+            while (current != null) {
                 size++;
                 current = current.next;
             }
-            
+
             return size;
         }
 }
