@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DevOps_DoublyLinkedList:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DevOps_DoublyLinkedList_jar</output-path>
+    <root id="archive" name="DevOps_DoublyLinkedList.jar">
+      <element id="module-output" name="DevOps_DoublyLinkedList" />
+      <element id="module-test-output" name="DevOps_DoublyLinkedList" />
+    </root>
+  </artifact>
+</component>
