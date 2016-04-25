@@ -248,7 +248,7 @@ public class DoublyLinkedList<E>
             Node current = first;
 
             while (current != null) {
-                size++;
+                size--;
                 current = current.next;
             }
 
