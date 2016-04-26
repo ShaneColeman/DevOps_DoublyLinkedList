@@ -251,7 +251,7 @@ public class DoublyLinkedList<E>
                 size++;
                 current = current.next;
             }
-
+            //Comment added
             return size;
         }
 }
